@@ -33,9 +33,9 @@ h1:hover {
 /* Paragraph elements */
 p {
     font-family: Perpetua, Rockwell Extra Bold;
-    text-align: absolute; /* Justify text within paragraph elements */
+    text-align: center; /* Justify text within paragraph elements */
     letter-spacing: .1vw; /* This expands the text slightly */
-    font-size: 1.5vw; /* Relative font sizing equal to 2.5% of the viewport width */
+    font-size: 1.5vw 1.5vh; /* Relative font sizing equal to 2.5% of the viewport width */
     padding-left: 1vw; /* Relative padding equal to 1% of the viewport width */
     padding-right: 1vw; /* Relative padding equal to 1% of the viewport width */
 }
@@ -71,7 +71,7 @@ q {
 img {
     border-radius: 8px; /* Gives all images slightly rounded corners */
     max-width: 100%; /* Ensures all images stay within the width of their container */
-    max-height: 400px; /* Sets the height of all images */
+    max-height: 20vh; /* Sets the height of all images */
     display: block; /* By specifying block display we can ensure our images are able to be centered */
     margin-left: auto; /* In combination with "margin-right: auto" this centers all images */
     margin-right: auto;
@@ -206,9 +206,9 @@ footer {
     float: left;
     width: 45%; /* This ensures the column takes up half of the page width */
     border-radius: 20%; /* This ensures there is space between the top of the column and our headings */
-    height: 500px; /* This sets the height of the column to 400px -  this may need to be adjusted depending on the text you enter */
+    height: 25vh; /* This sets the height of the column to 400px -  this may need to be adjusted depending on the text you enter */
     background-color: gray; /* Sets the background color of the columns with class Column_1 */
-    overflow: hidden;
+    overflow: visible;
     color: white;
     margin-left: 2.5%;
     margin-right: 2.5%;
@@ -231,9 +231,9 @@ footer {
     float: left;
     width: 45%;
     border-radius: 20%;
-    height: 25%;
+    height: 25vh;
     background-color: black;
-    overflow: hidden;
+    overflow: visible;
     margin-right: 2.5%;
     margin-left: 2.5%;
     margin-top: 2.5%;
@@ -280,12 +280,13 @@ footer {
     to {right: 1.75vw;}
 }
 
-.form-popup {
-    display: none;
+#myForm {
+    display: block;
     z-index: 8;
     position: fixed; /* The form stays in the same location no matter what */
     bottom: .5vw; /* Slightly up from the bottom of the viewport */
     right: .5vw; /* Slightly in from the right side of the viewport */
+    float: none;
 }
 
 /* Form styling */
