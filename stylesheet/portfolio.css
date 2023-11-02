@@ -200,20 +200,20 @@ footer {
 /***** TABLE STYLING -  this section covers the styling of the columns and rows within the table *****/
 * { /* The asterisk is a universal selector that applies this effect to all elements on the page */
     box-sizing: border-box; /* This creates a box with a border within which we will place most of our text */
-} 
+}
 
 .Column_1 {
     float: left;
     width: 45%; /* This ensures the column takes up half of the page width */
-    border-radius: 20%;/* This ensures there is space between the top of the column and our headings */
+    border-radius: 20%; /* This ensures there is space between the top of the column and our headings */
     height: 500px; /* This sets the height of the column to 400px -  this may need to be adjusted depending on the text you enter */
-    background-color:gray; /* Sets the background color of the columns with class Column_1 */
+    background-color: gray; /* Sets the background color of the columns with class Column_1 */
     overflow: hidden;
     color: white;
     margin-left: 2.5%;
     margin-right: 2.5%;
-    margin-top: 25px;
-    margin-bottom: 25px;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
 }
 
 .Column_1 h1 {
@@ -231,13 +231,13 @@ footer {
     float: left;
     width: 45%;
     border-radius: 20%;
-    height: 500px;
+    height: 25%;
     background-color: black;
     overflow: hidden;
     margin-right: 2.5%;
     margin-left: 2.5%;
-    margin-top: 25px;
-    margin-bottom: 25px;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
 }
 
 #GitHub p {
@@ -469,7 +469,7 @@ form {
     font-size: 1.5vw; /* Font size is relative to the size of the viewport width */
     background-color: rgba(0, 0, 0, 0.75); /* Gives a slightly transparent black background */
     font-weight: bold;
-    border-radius: 0px 0px 7px 7px; /* Gives the text background rounded corners on the bottom left and right corners */
+    border-radius: 0px 0px 8px 8px; /* Gives the text background rounded corners on the bottom left and right corners */
 }
 
 /* Styling of the dots under the slideshow */
