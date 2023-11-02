@@ -1,6 +1,6 @@
 // These functions open and close the contact form
 function openForm() {
-    document.getElementsByClass("form-popup").style.display = "block";
+    document.getElementById("myForm").style.display = "block";
 }
 
 function closeForm() {
