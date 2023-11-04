@@ -89,10 +89,12 @@ img.main {
 img.Slideshow_Images {
     border-radius: 8px; /* Gives all images slightly rounded corners */
     width: 100%; /* Ensures all images stay within the width of their container */
-    height: 100%; /* Sets the height of all images */
     display: block; /* By specifying block display we can ensure our images are able to be centered */
     margin-left: auto; /* In combination with "margin-right: auto" this centers all images */
     margin-right: auto;
+    vertical-align: middle; /* This centers the images vertically within the slideshow container */
+    height: 100%; /* The height of the images is automatically adjusted based on the content, ie if your images are different sizes, they will display as different sizes */
+    box-shadow: 0px 5px 10px 12px rgba(0, 0, 0, .75); /* Adds a shadow around the slideshow images */
 }
 
 /* Image element hover effects */
